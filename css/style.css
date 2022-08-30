@@ -3,220 +3,152 @@
 * {
     margin: 0%;
     padding: 0%;
-    box-sizing: border-box;   
+    box-sizing: border-box;
 }
-
-/*
-        font-family: 'League Spartan', sans-serif;
-
-        ### Primary
-
-        Very Dark Magenta: hsl(300, 43%, 22%) ROXO
-        Soft Pink: hsl(333, 80%, 67%) ROSA
-
-        ### Neutral
-
-        Dark Grayish Magenta: hsl(303, 10%, 53%) ROSA CLARO
-        Light Grayish Magenta: hsl(300, 24%, 96%) ROSA CREME PARAGRAFO
-        White: hsl(0, 0%, 100%)
-*/
 
 body {
     font-family: 'League Spartan', sans-serif;
 }
 
+/*### Primary
+
+hsl(300, 43%, 22%) roxo titulo
+hsl(333, 80%, 67%) rosa verificado
+
+### Neutral
+
+hsl(303, 10%, 53%) paragrafo s1
+hsl(300, 24%, 96%) background pink stars
+hsl(0, 0%, 100%)
+
+*/
+
 main {
     background-color: hsl(0, 0%, 100%);
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    min-height: 100vh;
 }
 
-/* =========== SESSÃO 1 ================*/
-
-
-/* TITULO E PARAGRAFO */
 .sessao-1 {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    width: 100%;
+    padding: 0rem 20rem 5rem;
 }
 
-.sessao-1-titulo {
+.container1-s1 {
+    width: 400px;
+}
+
+.titulo-s1 {
+    font-size: 3rem;
+    padding-bottom: 2rem;
     color: hsl(300, 43%, 22%);
-    font-size: 3em;
     font-weight: 700;
-    padding: 0px 25rem 1rem 0px;
 }
 
-.sessao-1-paragrafo {
+.paragrafo1-s1 {
+    font-size: 17px;
     color: hsl(303, 10%, 53%);
-    padding-bottom: 4rem;
-    line-height: 1.5em;
-    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5rem;
 }
 
-/* ESTRELAS E PARAGRAFOS */
-
-.componente-1 {
+.container2-s1 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 250px;
-    padding-bottom: 3em;
+    width: 500px;
+    height: 175px;
 }
 
-.hidden-1 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+.component1-s1 {
     background-color: hsl(300, 24%, 96%);
     border-radius: 5px;
-    padding: 20px 40px;
-    width: 400px;
-    margin-right: 10em;
-}
-
-.hidden-1 p {
-    margin-left: 10px;
-    font-size: 14px;
-    color: hsl(300, 43%, 22%);
-    font-weight: 700;
-}
-
-.hidden-1 svg {
-    margin: 0px 3px;
-    padding: 0px 0px;
-}
-
-.hidden-2 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    background-color: hsl(300, 24%, 96%);
-    border-radius: 5px;
-    padding: 20px 40px;
-    width: 400px;
-    margin-left: 5em;
-}
-
-.hidden-2 p {
-    margin-left: 10px;
-    font-size: 14px;
-    color: hsl(300, 43%, 22%);
-    font-weight: 700;
-}
-
-.hidden-2 svg {
-    margin: 0px 3px;
-    padding: 0px 0px;
-}
-
-.hidden-3 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    background-color: hsl(300, 24%, 96%);
-    border-radius: 5px;
-    padding: 20px 40px;
-    width: 400px;
-    margin-left: 10em;
-}
-
-.hidden-3 p {
-    margin-left: 10px;
-    font-size: 14px;
-    color: hsl(300, 43%, 22%);
-    font-weight: 700;
-}
-
-.hidden-3 svg {
-    margin: 0px 3px;
-    padding: 0px 0px;
-}
-
-/* ============ SESSÃO 2 ==================== */
-
-.sessao-2 {
     display: flex;
     justify-content: center;
-    height: 250px;
+    align-items: center;
+    padding: 1rem 2rem;
+    gap: 10px;
+    width: 400px;
 }
 
-.componente-2 {
+.modification1-s1 {
+    margin-left: 3rem;
+}
+
+.modification2-s1 {
+    margin-left: 6rem;
+}
+
+.paragrafo2-s1 {
+    font-size: 15px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+/*SESSÃO 2 - SESSÃO 2 - SESSÃO 2 - SESSÃO 2 - SESSÃO 2 - SESSÃO 2 - SESSÃO 2 - */
+
+.sessao-2 {
+    padding: 0rem 20rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.container1-s2 {
+    border-radius: 10px;
     background-color: hsl(300, 43%, 22%);
-    width: 300px;
-    height: 200px;
-    margin: 0px 90px;
-    border-radius: 5px;
-    padding: 20px;
+    max-width: 400px;
+    padding: 3rem;
+    height: 275px;
 }
 
-.componente-3 {
-    background-color: hsl(300, 43%, 22%);
-    width: 300px;
-    height: 200px;
-    margin: 20px 90px 0px;
-    border-radius: 5px;
-    padding: 20px;
-}
-
-.componente-4 {
-    background-color: hsl(300, 43%, 22%);
-    width: 300px;
-    height: 200px;
-    margin: 40px 90px 0px;
-    border-radius: 5px;
-    padding: 20px;
-}
-
-.perfil {
+.component1-s2 {
     display: flex;
     align-items: center;
-    padding-bottom: 1.5em;
+    padding-bottom: 2rem;
 }
 
-.perfil img {
-    height: 40px;
+.img-perfil {
     border-radius: 50%;
+    height: 40px;
 }
 
-.perfil h2 {
-    font-size: 15px;
-    padding-left: 1em;
-    color: white;
+.titulo-s2 {
+    color: hsl(0, 0%, 100%);
+    padding-left: 1rem;
     display: flex;
     flex-direction: column;
-    font-weight: 600;
-    line-height: 1.2em;
+    font-size: 15px;
     letter-spacing: 1px;
 }
 
-.perfil span {
+.titulo-s2 span {
     color: hsl(333, 80%, 67%);
-    font-weight: 500;
+    padding-top: 5px;
+    font-weight: 400;
+    letter-spacing: normal;
 }
 
-.componente-2 p {
-    font-size: 15px;
-    line-height: 1.5em;
-    color: white;
+.paragrafo1-s2 {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.1rem;
+    line-height: 1.5rem;
 }
 
-.componente-3 p {
-    font-size: 15px;
-    line-height: 1.5em;
-    color: white;
+.modification1-s2 {
+    margin-top: 1rem;
 }
 
-.componente-4 p {
-    font-size: 15px;
-    line-height: 1.5em;
-    color: white;
+.modification2-s2 {
+    margin-top: 2rem;
 }
+
+
 
 
 
