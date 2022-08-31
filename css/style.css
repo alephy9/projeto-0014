@@ -10,19 +10,6 @@ body {
     font-family: 'League Spartan', sans-serif;
 }
 
-/*### Primary
-
-hsl(300, 43%, 22%) roxo titulo
-hsl(333, 80%, 67%) rosa verificado
-
-### Neutral
-
-hsl(303, 10%, 53%) paragrafo s1
-hsl(300, 24%, 96%) background pink stars
-hsl(0, 0%, 100%)
-
-*/
-
 main {
     background-color: hsl(0, 0%, 100%);
     min-height: 100vh;
@@ -30,6 +17,8 @@ main {
     flex-direction: column;
     justify-content: center;
 }
+
+/*SESSÃO 1 - SESSÃO 1 - SESSÃO 1 - SESSÃO 1 - SESSÃO 1 - SESSÃO 1 - SESSÃO 1 - */
 
 .sessao-1 {
     display: flex;
